@@ -5,10 +5,14 @@ This repository curates metadata for widely used public datasets in health, medi
 **📚 Purpose**
 
 These structured metadata files are designed to be AI-ready, enabling intelligent agents to assist with:
-🧹 Data cleaning
-📊 Generating summary statistics
-🔗 Merging/linking datasets
-📈 Running full analyses
+
+    ● Data cleaning
+  
+    ● Generating summary statistics
+  
+    ● Merging/linking datasets
+    
+    ● Running full analyses
 
 **🔍 Why This Matters**
 
