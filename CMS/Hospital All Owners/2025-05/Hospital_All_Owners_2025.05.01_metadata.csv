@@ -1,0 +1,73 @@
+variable_name,description,type,length
+ENROLLMENT ID,"Hospital’s enrollment ID. An enrollment ID is a unique 15-digit alphanumeric identifier that is assigned to each new provider enrollment application. All enrollment-level information (e.g. enrollment type, enrollment state, provider specialty and reassignment of benefits) is linked through the enrollment ID.",CHAR,15
+ASSOCIATE ID,Hospital’s PECOS Associate Control (PAC) ID. A PAC ID is a unique 10-digit numeric identifier that is assigned to each individual or organizational provider in PECOS. All entity-level information (e.g. tax identification numbers and provider names) is linked through the PAC ID. A PAC ID may be associated with multiple enrollment IDs if the provider is enrolled multiple times under different circumstances.,CHAR,10
+ORGANIZATION NAME,Hospital’s legal business name,CHAR,70
+ASSOCIATE ID - OWNER,PAC ID of the “owner” – an associate with ownership or managing control interest in the hospital enrollment.,CHAR,10
+TYPE - OWNER,"Type of owner, “I” for individual and “O” for organization.",CHAR,1
+ROLE CODE - OWNER,"Owner’s role code. 01: 5% OR MORE OWNERSHIP INTEREST.
+03: PARTNER.
+25: CONTRACTED MANAGING EMPLOYEE.
+34: 5% OR GREATER DIRECT OWNERSHIP INTEREST.
+35: 5% OR GREATER INDIRECT OWNERSHIP INTEREST.
+36: 5% OR GREATER MORTGAGE INTEREST.
+37: 5% OR GREATER SECURITY INTEREST.
+38: GENERAL PARTNERSHIP INTEREST.
+39: LIMITED PARTNERSHIP INTEREST.
+40: OFFICER.
+41: DIRECTOR.
+42: W-2 MANAGING EMPLOYEE.
+43: OPERATIONAL/MANAGERIAL CONTROL.
+44: OTHER.",CHAR,2
+ROLE TEXT - OWNER,Description for Owner Role Code.,CHAR,100
+ASSOCIATION DATE - OWNER,"Date on which the owner became associated with the
+hospital.",NUM,8
+FIRST NAME - OWNER,Individual owner’s first name,CHAR,25
+MIDDLE NAME - OWNER,Individual owner’s middle name.,CHAR,25
+LAST NAME - OWNER,Individual owner’s last name.,CHAR,35
+TITLE - OWNER,Individual owner’s title.,CHAR,35
+ORGANIZATION NAME - OWNER,Organizational owner’s legal business name.,CHAR,70
+DOING BUSINESS AS NAME - OWNER,Organizational owner’s doing-business-as name.,CHAR,70
+ADDRESS LINE 1 - OWNER,"Address line 1 of the organizational owner’s mailing address
+or business address.",CHAR,55
+ADDRESS LINE 2 - OWNER,"Address line 2 of the organizational owner’s mailing address
+or business address.",CHAR,55
+CITY - OWNER,"City of the organizational owner’s mailing address or
+business address.",CHAR,30
+STATE - OWNER,"State of the organizational owner’s mailing address or
+business address, see State Code Reference Table for
+description of values.",CHAR,2
+ZIP CODE - OWNER,"Zip code of the organizational owner’s mailing address or
+business address.",CHAR,15
+PERCENTAGE OWNERSHIP,Owner’s ownership percentage in the hospital enrollment.,NUM,8
+CREATED FOR ACQUISITION - OWNER,"A flag that indicates if the organizational owner was solely
+created to acquire/buy the hospital and/or the hospital’s
+assets (Y/N; blank if not reported).",CHAR,1
+CORPORATION - OWNER,"A flag that indicates if the owner’s organization type is
+corporation (Y/N; blank if not reported).",CHAR,1
+LLC - OWNER,"A flag that indicates if the owner’s organization type is limited
+liability company (Y/N; blank if not reported).",CHAR,1
+MEDICAL PROVIDER SUPPLIER - OWNER,"A flag that indicates if the owner’s organization type is
+medical provider/supplier (Y/N; blank if not reported).",CHAR,1
+MANAGEMENT SERVICES COMPANY - OWNER,"A flag that indicates if the owner’s organization type is
+management services company (Y/N; blank if not reported).",CHAR,1
+MEDICAL STAFFING COMPANY - OWNER,"A flag that indicates if the owner’s organization type is
+medical staffing company (Y/N; blank if not reported).",CHAR,1
+HOLDING COMPANY - OWNER,"A flag that indicates if the owner’s organization type is holding
+company (Y/N; blank if not reported).",CHAR,1
+INVESTMENT FIRM - OWNER,"A flag that indicates if the owner’s organization type is
+investment firm (Y/N; blank if not reported).",CHAR,1
+FINANCIAL INSTITUTION - OWNER,"A flag that indicates if the owner’s organization type is bank
+or other financial institution (Y/N; blank if not reported).",CHAR,1
+CONSULTING FIRM - OWNER,A flag that indicates if the owner’s organization type is consulting firm (Y/N; blank if not reported).,CHAR,1
+FOR PROFIT - OWNER,A flag that indicates if the owner’s organization type is for profit (Y/N; blank if not reported).,CHAR,1
+NON PROFIT - OWNER,A flag that indicates if the owner’s organization type is nonprofit (Y/N; blank if not reported).,CHAR,1
+PRIVATE EQUITY COMPANY - OWNER,A flag that indicates if the owner’s organization type is private equity company (Y if reported; blank if not reported).,CHAR,1
+REIT - OWNER,A flag that indicates if the owner’s organization type is real estate investment trust (REIT) (Y if reported; blank if not reported).,CHAR,1
+CHAIN HOME OFFICE - OWNER,"A flag that indicates if the owner’s organization type is chain
+home office (Y if reported; blank if not reported).",CHAR,1
+OTHER TYPE - OWNER,A flag that indicates if the owner’s organization type is not listed on the CMS form (Y/N; blank if not reported).,CHAR,1
+OTHER TYPE TEXT - OWNER,"Other type of owner’s organization that is not listed on the
+CMS form.",CHAR,40
+OWNED BY ANOTHER ORG OR IND - OWNER,"A flag that indicates if the owner’s organization itself is owned
+by any other organization or individual (Y/N; blank if not
+reported).",CHAR,1
