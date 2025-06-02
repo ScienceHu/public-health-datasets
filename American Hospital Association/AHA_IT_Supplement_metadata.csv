@@ -1,0 +1,1345 @@
+variable_names,survey_question_first_part,survey_question_second part,survey_question_number,survey_question_options
+YEAR,survey year,,,
+ID,AHA Identification Number,,,
+MCRNUM,Medicare Provider Number,,,
+MNAME,Hospital name,,,
+MLOCADDR,Street Address,,,
+MLOCCITY,City,,,
+MSTATE,State,,,
+MLOCZIP,ZIP code,,,
+BDTOT,Total facility beds set up and staffed,,,
+MCNTRL,Control/ownership,,,"12 = State		
+13 = County		
+14 = City		
+15 = City-county		
+16 = Hospital district or authority		
+21 = Church operated		
+23 = Other		
+31 = Individual		
+32 = Partnership		
+33 = Corporation	
+40 = Department of Defense	
+44 = Public Health Service other than 47
+45 = Veterans Affairs
+46 = Federal other than 41-45, 47-48
+47 = Public Health Service Indian Service
+48 = Department of Justice"
+PIEMRO,"28.  Which vendor below provides your primary inpatient EHR/EMR system?  ""Primary"" is defined as the system that is used for the largest number of patients or the system in which you have made the single largest investment. Please answer based on the vendor name rather than product. (Check only one)",,Q28_OTH,string
+MSERV,Primary service code,,,"10 = General medical and surgical
+11 = Hospital unit of an institution (prison hospital, college infirmary, etc.)
+12 = Hospital unit within a facility for persons with intellectual disabilities
+13 = Surgical
+22 = Psychiatric
+33 = Tuberculosis and other respiratory diseases
+41 = Cancer
+42 = Heart
+44 = Obstetrics and gynecology
+45 = Eye, ear, nose and throat
+46 = Rehabilitation
+47 = Orthopedic
+48 = Chronic disease
+49 = Other specialty
+50 = Childrens general
+51 = Childrens hospital unit of an institution
+52 = Childrens psychiatric
+53 = Childrens tuberculosis and other respiratory diseases
+55 = Childrens eye, ear, nose and throat
+56 = Childrens rehabilitation
+57 = Childrens orthopedic
+58 = Childrens chronic disease
+59 = Childrens other specialty
+62 = Intellectual disabilities
+80 = Acute Long-Term Care
+82 = Alcoholism and other chemical dependency
+90 = Children's acute long-term
+91 = Children's cancer"
+ESOTH_DESC,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",Other description (use external source),Q7_G_OTH,1 = Yes; 0 = No
+EVOTH_DESC,25a. In what form(s) have you observed or experienced information blocking by Enterprise EHR vendor(s)?,Other description (EHR vendor information blocking),Q25a_5_OTH,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+OSNOTH_DESC,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,Other description (external source for social needs),Q6_E_OTH,1 = Yes; 0 = No
+OTHNET_DESC,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",Other national health information exchange network description,Q9_G_OTH,1 = Yes; 0 = No
+EMOOTH_DESC,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ",Other electronic methods description,Q13b_7_OTH,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+HCPOTH_DESC,25c. In what form(s) have you observed or experienced information blocking by healthcare providers?,Other description (healthcare provider blocking),Q25c_4_OTH,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+NM1OTH,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b1b.Name1 Other,Q8b1_OTH,string
+BAROTH_DESC,,,,
+MNGFL_OTHD,,,,
+OTHISND_DESC,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",Other methods description (sending with intermediaries),Q14_K_OTH,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+OTHNIRCV_DESC,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",Other methods description (receiving without intermediaries),Q17_F_OTH,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+OTHNISND_DESC,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",Other methods description (sending without intermediaries),Q14_F_OTH,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+SFAOSNS,,,,
+SFBHFDNK,,,,
+SFBHFS,,,,
+SFHOSNS,,,,
+SFLTCFDNK,,,,
+SFLTCFS,,,,
+PAT_OD,,,,
+POEMRO,,,,
+CSEDPD,,,,
+CSEDPN,,,,
+CSEDNA,,,,
+CSEDPL,,,,
+CSEDML,,,,
+CSEDDS,,,,
+CSEDAD,,,,
+CSRVLR,,,,
+CSRVRR,,,,
+CSRVRI,,,,
+CSRVDR,,,,
+CSRVDI,,,,
+CSRVCR,,,,
+CSCPLT,,,,
+CSCPRT,,,,
+CSCPM,,,,
+CSCPCR,,,,
+CSCPNO,,,,
+CSDSCG,,,,
+CSDSCR,,,,
+CSDSDA,,,,
+CSDSDD,,,,
+CSDSDL,,,,
+CSDSDS,,,,
+CSBCMA,,,,
+CSBCPTV,,,,
+CSBCCV,,,,
+CSBCPV,,,,
+CSOFRF,,,,
+CSOFT,,,,
+CSRPM,,,,
+CSOFMD,,,,
+ESPTDEM,,,,
+ESCDIP,,,,
+ESCAP_CIP,,,,
+ESYSPRE,,,,
+ESMDMO,,,,
+ESCAP_UMD,,,,
+ESDICDA,,,,
+ESDIUO,,,,
+QREHRHSP,,,,
+ESC_HQA,,,,
+QREHRPHY,,,,
+PHRSUBI,,,,
+PHRSUBPHS,,,,
+PHRQNA,,,,
+PHRREG,,,,
+ESOFCDS,,,,
+ESOFSRA,,,,
+PEFVI,,,,
+PEFDI,,,,
+PEFRS,,,,
+PEFRA,,,,
+PEFRP,,,,
+PEFSA,,,,
+PEFPB,,,,
+PEFSD,,,,
+PEFSM,,,,
+PEFPROX,,,,
+PDWHIS,,,,
+PDWHOS,,,,
+PDWAIS,,,,
+PDWAOS,,,,
+PDDNK,,,,
+LRWHIS,,,,
+LRWHOS,,,,
+LRWAIS,,,,
+LRWAOS,,,,
+LRDNK,,,,
+MHWHIS,,,,
+MHWHOS,,,,
+MHWAIS,,,,
+MHWAOS,,,,
+MHDNK,,,,
+RRWHIS,,,,
+RRWHOS,,,,
+RRWAIS,,,,
+RRWAOS,,,,
+RRDNK,,,,
+CRWHIS,,,,
+CRWHOS,,,,
+CRWAIS,,,,
+CRWAOS,,,,
+CRDNK,,,,
+MAILS,,,,
+MAILR,,,,
+MAILN,,,,
+MAILDNK,,,,
+EFAXS,,,,
+EFAXR,,,,
+EFAXN,,,,
+EFAXDNK,,,,
+SMEHRS,,,,
+SMEHRR,,,,
+SMEHRN,,,,
+SMEHRDNK,,,,
+PORTS,,,,
+PORTR,,,,
+PORTN,,,,
+PORTDNK,,,,
+HIES,,,,
+HIER,,,,
+HIEN,,,,
+HIEDNK,,,,
+SFHOSS,,,,
+SFHOSR,,,,
+SFHOSN,,,,
+SFHOSDNK,,,,
+SFAOSS,,,,
+SFAOSR,,,,
+SFAOSN,,,,
+SFAOSDNK,,,,
+SFLTCPS,,,,
+SFLTCPR,,,,
+SFLTCPN,,,,
+SFLTCPDNK,,,,
+SFBHPS,,,,
+SFBHPR,,,,
+SFBHPN,,,,
+SFBHPDNK,,,,
+EHRINT,,,,
+SOCINT,18. Does your EHR integrate the information contained in summary of care records received electronically  (not eFax) without the need for manual entry? ,Integration of electronically received summary of care records,Q18,"1 = Yes, routinely
+2 = Yes, but not routinely
+3 = No
+4 = Do not know
+5 = NA"
+EQPHIOS,"13a.  Does your hospital query electronically for patients' health information (e.g. medications, outside encounters) from sources outside of your organization or hospital system? Note: Hospitals that auto-query should respond ""Yes""",Hospital able to query electronically for a patient's health information from sources outside organization or system,Q13a,"1 = Yes (go to 13b)
+2 = No, but have the capability (go to 14)
+3 = Do not know (go to 14)
+4 = No, do not have capability (go to 14)"
+CIAOUT,"20.  When treating a patient that was seen by a provider outside your organization or hospital system, do providers at your hospital routinely have necessary clinical information available electronically (not e-Fax) from outside providers or sources?",Clinical information available electronically from outside providers/sources,Q20,"1 = Yes
+2 = No
+3 = Do not know"
+PHIOUT,21.  How frequently do providers at your hospital use patient health information received electronically (not e-Fax) from outside providers or sources when treating a patient?,Use electronic patient health information from outside providers,Q21,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know"
+PHI_INFONA,,,,
+PHI_NOTRUST,,,,
+PHI_DIFF,,,,
+PHI_NOVIEW,,,,
+PHI_FORMAT,,,,
+PHI_OTH,,,,
+PHI_OTH_DESC,,,,
+ENPCP,,,,
+ENPCPIS,,,,
+ENPCPOS,,,,
+ENPCPDNK,,,,
+RHIO_LVL1,"8a.  Please indicate your level of participation in a state, regional, and/or local health information exchange (HIE) or health information organization (HIO). Note: This does not refer to a private, enterprise network.",Level of HIE or HIO participation,Q8a,"1 = HIE/HIO is operational in my area and we are participating and actively exchanging data in at least one HIE/HIO
+2 = HIE/HIO is operational in my area but we are not participating
+3 = HIE/HIO is not operational in my area
+4 = Do not know"
+ESPHI,,,,
+ERPHI,,,,
+NPEHR,"24a. Which of the following issues has your hospital experienced when trying to electronically (not eFax) send, receive, or find (query) patient health information to/from other organizations or hospital systems? (Check all that apply) Barriers related to electronically sending patient health information","1. Providers we would like to electronically send patient health information to, do not have an EHR or other electronic system with capability to receive the information",Q24a_1,1 = Yes; 0 = No
+PEHRNRI,"24a. Which of the following issues has your hospital experienced when trying to electronically (not eFax) send, receive, or find (query) patient health information to/from other organizations or hospital systems? (Check all that apply) Barriers related to electronically sending patient health information","2. Providers we would like to electronically send patient health information to have an EHR; however, it lacks the technical capability to receive the information",Q24a_2,1 = Yes; 0 = No
+NUECS,"24a. Which of the following issues has your hospital experienced when trying to electronically (not eFax) send, receive, or find (query) patient health information to/from other organizations or hospital systems? (Check all that apply) Barriers related to electronically sending patient health information",4. Many recipients of our electronic care summaries (e.g. CCDA) report that the information is not useful,Q24a_4,1 = Yes; 0 = No
+CSEHR,,,,
+NOIDP,24b. Barriers related to electronically receiving patient health information,1. Difficult to match or identify the correct patient between systems,Q24b_1,1 = Yes; 0 = No
+NOPA,"24a. Which of the following issues has your hospital experienced when trying to electronically (not eFax) send, receive, or find (query) patient health information to/from other organizations or hospital systems? (Check all that apply) Barriers related to electronically sending patient health information",3. Difficult to locate the address of the provider to send the information (e.g. lack of provider directory),Q24a_3,1 = Yes; 0 = No
+DIFVEND,24c. Other barriers related to exchanging patient health information,1. Experience greater challenges exchanging (e.g. sending/receiving) data across different vendor platforms,Q24c_1,1 = Yes; 0 = No
+NOSHARE,,,,
+ADCOST,24c. Other barriers related to exchanging patient health information,2. We have to pay additional costs to send/receive data with outside organizations/hospital systems,Q24c_2,1 = Yes; 0 = No
+COSTMYVEN,,,,
+COSTRECVEN,,,,
+COSTINT,,,,
+COSTOTH,,,,
+COSTDSCR,,,,
+IT_AUTH,,,,
+EMRHRCRT,26a.  Does your hospital use an EHR system that has been certified?,Does your hospital use an EHR system that has been certified?,Q26a,"1 = Yes
+2 = No
+3 = Do not know"
+EMR_DSCR,,,,
+PIEMR,"28.  Which vendor below provides your primary inpatient EHR/EMR system?  ""Primary"" is defined as the system that is used for the largest number of patients or the system in which you have made the single largest investment. Please answer based on the vendor name rather than product. (Check only one)",Primary provider of inpatient EHR,Q28,"1 = Allscripts
+2 = Cerner
+3 = eClinical works
+4 = Eclipsys
+5 = Epic
+6 = GE
+7 = McKesson
+8 = MED3000
+9 = Meditech
+10 = NextGen
+11 = Harris Healthcare/QuadraMed
+12 = Sage
+13 = Siemens
+14 = Self-developed
+15 = Other (specify)
+Other described
+16 = Would prefer not to disclose
+17 = CPSI/Evident
+18 = HMS
+19 = Healthland
+20 = Vitera/Greenway
+21 = Evident
+22 = MEDHOST
+24 = Prognosis
+25 = Athenahealth
+26 = MedWorx
+27 = Health Care System
+28 = Azalea Health/Prognosis"
+SIOPV,31.  Do you use the same primary inpatient EHR/EMR system vendor (noted above) for your primary outpatient EMR/EHR system? ,Same primary inpatient EHR/EMR system vendor (noted above) for primary outpatient EMR/EHR system,Q31,"1 = Yes, share single instance
+2 = Yes, but do not share the single instance/version
+3 = No
+4 = Do not know
+5 = NA"
+HIE_SAME,,,,
+HIE_MEDFX,,,,
+HIE_INTSYS,,,,
+HIE_HARRIS,,,,
+HIE_SRSCRPTS,,,,
+HIE_MEDCTY,,,,
+HIE_TRVN,,,,
+HIE_MIRTH,,,,
+HIE_RELAY,,,,
+HIE_ORION,,,,
+HIE_INPRIVA,,,,
+HIE_CARE,,,,
+HIE_OPAX,,,,
+HIE_MAXMD,,,,
+HIE_CVNST,,,,
+HIE_SNDLT,,,,
+HIE_ICA,,,,
+HIE_MEDALL,,,,
+HIE_MCRSFT,,,,
+HIE_CDS,,,,
+HIE_OTH,,,,
+HIE_NOEX,,,,
+HIE_NODIS,,,,
+PPHIEO,,,,
+CHNG_ID,,,,
+CHNG_VEN,,,,
+CHG_ARCA,,,,
+CHG_ARCB,,,,
+CHNG_FUNC,,,,
+CHNG_UNKN,,,,
+CHNG_NUN,,,,
+FEDCST,,,,
+FEDUS,,,,
+FEDPHY,,,,
+FEDSTF,,,,
+MNGFL_SEC,,,,
+MNGFL_CERT,,,,
+MNGFL_VEN,,,,
+MNGFL_IT,,,,
+MNGFL_TIME,,,,
+MNGFL_OTH,,,,
+ECDMOP,,,,
+ECDMUP,,,,
+ECDIPP,,,,
+ECDCQD,,,,
+ECDICG,,,,
+ECDCGP,,,,
+ECDISP,,,,
+ECDCQI,,,,
+ECDMPS,,,,
+ECDHRP,,,,
+ECDNONE,,,,
+ESCDGB,,,,
+ESCDRE,,,,
+ESCDTD,,,,
+ESCDPL,,,,
+ESCDVS,,,,
+ESCDSS,,,,
+ESCDMA,,,,
+ESCDFH,,,,
+LRLAB,,,,
+ESYSCND,,,,
+ESMMAR,,,,
+ESDICT,,,,
+HIE_ALARE,,,,
+HIE_IBM,,,,
+HIE_BRWSFT,,,,
+ESDIUR,,,,
+ESDIBD,,,,
+ESDITC,,,,
+ESDIEP,,,,
+OTWHIS,,,,
+OTWHOS,,,,
+OTWAIS,,,,
+OTWAOS,,,,
+OTDNK,,,,
+NEWHIS,,,,
+NEWHOS,,,,
+NEWAIS,,,,
+NEWAOS,,,,
+NEDNK,,,,
+EFPOPM,,,,
+EFCCR,,,,
+RHIO_EXST,,,,
+RHIO_LVL,,,,
+EMPHIOS,,,,
+PEFNA,,,,
+PEFDNK,,,,
+PAT_PHR,,,,
+PAT_PP,,,,
+PAT_SM,,,,
+PAT_O,,,,
+PAT_N,,,,
+EMREHR,,,,
+EMR_YR,,,,
+EMR_YR_DNK,,,,
+POEMR,,,,
+FEDLEAD,,,,
+RWOU_DEG,,,,
+ECDMQI,,,,
+ADLOGIN,,,,
+INTCONS,,,,
+INTCONR,,,,
+INTCONN,,,,
+INTCONDNK,,,,
+SFHOSNR,,,,
+SFAOSNR,,,,
+SFLTCFR,,,,
+SFBHFR,,,,
+LAWPRO,,,,
+HIE_CPH,,,,
+HIE_IATR,,,,
+HIE_ORCH,,,,
+HIE_SCC,,,,
+HIE_SUNQ,,,,
+CSDSID,,,,
+CSBCLS,,,,
+CSBCTP,,,,
+CSBCPA,,,,
+CSBCPI,,,,
+CSOFPU,,,,
+CSOFRU,,,,
+CSEDGB,,,,
+CSEDRO,,,,
+CSEDEO,,,,
+CSEDL,,,,
+CSEDV,,,,
+CSEDBMI,,,,
+CSEDSS,,,,
+CSEDA,,,,
+CSEDSCR,,,,
+CSEDIP,,,,
+ESCap_LCM,,,,
+ESYSPMR,,,,
+CCRHIS,,,,
+CCRHOS,,,,
+CCRAIS,,,,
+CCRAOS,,,,
+DCRGSUM,,,,
+DCRGAMB,,,,
+EMR_NA,,,,
+ESCap_IE,,,,
+ESCap_EC,,,,
+ESCap_PR,,,,
+ESCap_PC,,,,
+PAT_EC,,,,
+PAT_USB,,,,
+PLANMCR,,,,
+PLANEHR,,,,
+MNGFL_BARR,,,,
+MUCH_CDS,,,,
+MUCH_CPOE,,,,
+MUCH_EXCI,,,,
+MUCH_MR,,,,
+MUCH_PA,,,,
+MUCH_PL,,,,
+MUCH_QR,,,,
+MUCH_PHR,,,,
+CSEDCI,,,,
+CSEDR,,,,
+CSEDI,,,,
+CSRVLRT,,,,
+CSDSAD,,,,
+ESCap_HQA,,,,
+ESCap_PQRI,,,,
+MNGFL_APLY,,,,
+MNGFL_YR,,,,
+MNGFL_COST,,,,
+MNGFL_CAPT,,,,
+MNGFL_IMPL,,,,
+CHNG_ARC,,,,
+CSBCSM,,,,
+CCHIT,,,,
+NC_PAD,,,,
+NC_PSS,,,,
+NC_PSCM,,,,
+NC_MSCM,,,,
+FullyImp_EDED,,,,
+FullyImp_EDRV,,,,
+FullyImp_EDCP,,,,
+FullyImp_EDDS,,,,
+FullyImp_ICUED,,,,
+FullyImp_ICURV,,,,
+FullyImp_ICUCP,,,,
+FullyImp_ICUDS,,,,
+FullyImp_GMED,,,,
+FullyImp_GMRV,,,,
+FullyImp_GMCP,,,,
+FullyImp_GMDS,,,,
+FullyImp_SWED,,,,
+FullyImp_SWRV,,,,
+FullyImp_SWCP,,,,
+FullyImp_SWDS,,,,
+FullyImp_HONED,,,,
+FullyImp_HONRV,,,,
+FullyImp_HONCP,,,,
+FullyImp_HONDS,,,,
+FullyImp_HOFFED,,,,
+FullyImp_HOFFRV,,,,
+FullyImp_HOFFCP,,,,
+FullyImp_HOFFDS,,,,
+PCNT_MO,,,,
+PCNT_LO,,,,
+PCNT_CD,,,,
+PAT_DS,,,,
+PAT_TR,,,,
+PAT_ON,,,,
+PAT_ML,,,,
+DIS_DRP,,,,
+DIS_DRPT,,,,
+DIS_RN,,,,
+DIS_BDS,,,,
+DIS_RS,,,,
+BIO,,,,
+BIO_PH,,,,
+DSWHIS,,,,
+DSWHOS,,,,
+DSWAOS,,,,
+EHR,,,,
+EHBR_CAP,,,,
+EHBR_ROI,,,,
+EHBR_COST,,,,
+EHBR_PHYR,,,,
+EHBR_PRVR,,,,
+EHBR_SCI,,,,
+EHBR_DICC,,,,
+EHBR_LIT,,,,
+EHBR_IDPI,,,,
+EHBR_DON,,,,
+EHBR_HACK,,,,
+EHBR_NEED,,,,
+EHBR_ITSY,,,,
+EHBR_FUTS,,,,
+CHPHOTH_DESC,,,,
+TRKDOCUSE,,,,
+OTHIRCV_DESC,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",Other methods description (receiving with intermediaries),Q17_K_OTH,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+ACTPRTL,,,,
+AGMHCQM,,,,
+AGMIQR,,,,
+AGMPCQM,,,,
+BARCAP,,,,
+BARDES,,,,
+BARDNK,,,,
+BAREXT,,,,
+BARIT,,,,
+BARMAP,,,,
+BARNA,,,,
+BAROTH,,,,
+BARQA,,,,
+BARWRKFL,,,,
+CHG_FCTNR,,,,
+CHPHDNK,,,,
+CHPHDV,,,,
+CHPHNA,,,,
+CHPHNC,,,,
+CHPHOTH,,,,
+CSRVCQ,,,,
+CUSTINT,24c. Other barriers related to exchanging patient health information,"3. We had to develop customized interfaces in order to exchange (e.g.,  send/receive) data with outside organizations/health systems",Q24c_3,1 = Yes; 0 = No
+CUSTINTN,,,,
+CWHA,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",a. CommonWell Health Alliance,Q9_A,1 = Yes; 0 = No
+DGBDG,,,,
+DIRACCRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",e. Access to other organizations' EHR system using login credentials,Q17_E,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+DIRACCSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",e. Login credentials that allow access to your EHR,Q14_E,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+DRTRST,,,,
+EFAXRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",b. eFax using EHR,Q17_B,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EFAXSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",b. eFax using EHR,Q14_B,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EXPMREC,,,,
+HIORCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ","h. Regional, state, or local health information exchange organization (HIE/HIO). NOT local proprietary enterprise network",Q17_H,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+HIOSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ","h. Regional, state, or local health information exchange organization (HIE/HIO). Not local proprietary, enterprise network",Q14_H,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+HISPRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",g. HISPs that enable messaging via DIRECT protocol,Q17_G,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+HISPSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",g. HISPs that enable messaging via DIRECT protocol,Q14_G,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+HLTHXCH,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",b. e-Health Exchange,Q9_B,1 = Yes; 0 = No
+INTCONRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",d. Interface connection between EHR systems (e.g. HL7 interface),Q17_D,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+INTCONSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",d. Interface connection between EHR systems (e.g. HL7 interface),Q14_D,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+MAILRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",a. Mail or fax,Q17_A,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+MAILSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",a. Mail or fax,Q14_A,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+MEHRRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ","j. National networks that enable exchange across different EHR vendors (e.g. CommonWell, eHealth Exchange, Carequality)",Q17_J,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+MEHRSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ","j. National networks that enable exchange across different EHR vendors (e.g.  CommonWell, e-Health exchange, Carequality)",Q14_J,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+MNGFL_REGS,,,,
+NETDNK,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",i. Do not know (national HIE networks),Q9_I,1 = Yes; 0 = No
+NETNO,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",h. Do not participate in any national health information exchange networks (either via vendor or directly),Q9_H,1 = Yes; 0 = No
+OTHIRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",k. Other methods with intermediaries (receiving),Q17_K,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+OTHISND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",k. Other methods with intermediaries (sending),Q14_K,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+OTHNET,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",g. Other national health information exchange network,Q9_G,1 = Yes; 0 = No
+OTHNIRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",f.  Other methods without intermediaries (receiving),Q17_F,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+OTHNISND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",f.  Other methods without intermediaries,Q14_F,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+PDMPCHK,,,,
+PEFAPI,,,,
+PEFIR,,,,
+PHIXCHG,,,,
+PHI_CNTFND,,,,
+PHI_VOCAB,,,,
+PORTRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",c. Provider portals that allow you to view records in another organizations' EHR system,Q17_C,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+PORTSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ",c. Provider portals that allow outside organization to view records in your EHR system,Q14_C,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+PRVNOEX,24b. Barriers related to electronically receiving patient health information,2. There are providers whom we share patients with that don't typically exchange patient data with us,Q24b_2,1 = Yes; 0 = No
+SEHRRCV,"17. When a patient transitions from another care setting outside your organization or hospital system, how often does your hospital use the following methods to RECEIVE a summary of care record? ",i. EHR vendor-based network that enables exchange with vendor's other users (e.g. Epic's Care Everywhere),Q17_I,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+SEHRSND,"14. When a patient transitions to another care setting organization outside of your organization or hospital system, how often are the following methods used to SEND a summary of care record? ","i. EHR vendor-based network that enables exchange with vendor's other users. (e.g., Epic's Care Everywhere)",Q14_I,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+SHIEC,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",c. Civitas (formerly SHIEC)/Patient Centered Data Home (PCDH),Q9_C,1 = Yes; 0 = No
+SRSCRPT,,,,
+TRKDOC,,,,
+XCHRCV,,,,
+XCHSND,,,,
+DUOTH_DESC,,,,
+BARAGG,,,,
+BARFNDS,,,,
+BARGEN,,,,
+BARREQ,,,,
+CHPHEXT,,,,
+CHPHINTF,,,,
+CHPHNMC,,,,
+CHPHNP,,,,
+CHPHSND,,,,
+CSBCRFID,,,,
+DUCLWF,,,,
+DUIDPROV,,,,
+DUOTH,,,,
+DUPBRI,,,,
+DUPRDIMP,,,,
+DUPRFMN,,,,
+EMODIRAC,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ",3. Access to other organizations' EHR system using login credentials,Q13b_3,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EMOINTF,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ",2. Interface connection between EHR systems (e.g. HL7 interface),Q13b_2,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EMONATNET,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ","6. EHR connection to national networks that enable record location across EHRs in different networks (e.g. CommonWell, e-Health Exchange, Carequality)",Q13b_6,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EMOOTH,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ",7. Other electronic methods,Q13b_7,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EMOPORT,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ",1. Provider portals that allow you to view records in another organization's EHR system,Q13b_1,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EMOREG,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ","4. Regional, state, or local health information exchange organization (HIE/HIO). NOT local, proprietary, enterprise network",Q13b_4,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+EMOVBN,"13b. How often are the following electronic methods used to search for (e.g., query or auto-query) and view patient health information from sources outside your organization or hospital system? ",5. EHR vendor-based network that enables record location within the network (e.g. Care Everywhere),Q13b_5,"1 = Often
+2 = Sometimes
+3 = Rarely
+4 = Never
+5 = Do not know/NA"
+HEPCS,,,,
+PDMPINT,,,,
+PDMPSSO,,,,
+PEFVCN,,,,
+SPCAREQ,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",d. Carequality (network-to-network trust/governance framework,Q9_D,1 = Yes; 0 = No
+VENNET,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply","f. EHR vendor-based-network that enables record location and exchange within the EHR vendor's network of users (e.g., Epic's Care Everywhere)",Q9_F,1 = Yes; 0 = No
+CERTEHR,,,,
+COMREG,,,,
+SATISEHR,"29. Overall, how satisfied or dissatisfied are you with your primary inpatient EHR system?",Satisfaction with primary inpatient EHR system,Q29,"1 = Very satisfied
+2 = Somewhat satisfied
+3 = Somewhat dissatisfied
+4 = Very dissatisfied
+5 = Neither satisfied nor dissatisfied"
+PEFVIIP,,,,
+PEFDIIP,,,,
+PEFIRIP,,,,
+PEFRSIP,,,,
+PEFRAIP,,,,
+PEFPROXIP,,,,
+PEFVCNIP,,,,
+PEFAPIIP,,,,
+PEFPBIP,,,,
+OPCARE,1a. Does your hospital provide outpatient care to patients? Note: Outpatient care refers to both hospital based and satellite outpatient departments/sites.,Hospital provides outpatient care to patients,Q1a,1 = Yes; 0 = No
+POPEHR,1b. Is there more than one primary EMR/EHR system in use across your outpatient site(s)?,More than one primary EMR/EHR system in use across your outpatient site(s),Q1b,1 = Yes; 0 = No
+PEFVIOP,,,,
+PEFDIOP,,,,
+PEFIROP,,,,
+PEFRSOP,,,,
+PEFRAOP,,,,
+PEFPROXOP,,,,
+PEFVCNOP,,,,
+PEFAPIOP,,,,
+PEFSDOP,,,,
+PERSMOP,,,,
+PEFPBOP,,,,
+PEFRPOP,,,,
+PEFSAOP,,,,
+ENED,"15a.  When a patient visits your Emergency Department (ED), do you provide electronic notification to the patient's primary care physician?",Provide electronic notification to primary care physician after ED visit,Q15a,"1 = Yes, routinely
+2 = Yes, but not routinely (e.g. often missing information to route notification)
+3 = No, but have the capability (go to 16a)
+4 = No, don't have the capability (go to 16a)
+5 = Don't know (go to 16a)
+6 = Don't have ED (go to 16a)"
+PCPENI,"15b.  If yes, are electronic notifications provided to primary care physicians below? (Check all that apply)",1. Inside the system,Q15b_1,1 = Yes; 0 = No
+PCPENO,"15b.  If yes, are electronic notifications provided to primary care physicians below? (Check all that apply)",2. Outside the system,Q15b_2,1 = Yes; 0 = No
+PCPENDK,"15b.  If yes, are electronic notifications provided to primary care physicians below? (Check all that apply)",3. Do not know (electronic notifications),Q15b_3,1 = Yes; 0 = No
+HCRLOCAL,,,,
+HCRSTATE,,,,
+HCRFED,,,,
+HCRNR,,,,
+HCRDNW,,,,
+SPDTASM,,,,
+UNCLRFED,,,,
+UNCLRSTE,,,,
+UNCLRLCL,,,,
+UNCLRNO,,,,
+UNCLRDNK,,,,
+UDRDEFED,,,,
+UDRDESTE,,,,
+UDRDELCL,,,,
+UDRDENO,,,,
+UDRDEDNK,,,,
+NOTMPFED,,,,
+NOTMPSTE,,,,
+NOTMPLCL,,,,
+NOTMPNO,,,,
+NOTMPDKN,,,,
+DPNAFED,,,,
+DPNASTE,,,,
+DPNALCL,,,,
+DPNANO,,,,
+DPNADNK,,,,
+MSRNAFED,,,,
+MSRNASTE,,,,
+MSRNALCL,,,,
+MSRNANO,,,,
+MSRNADNK,,,,
+PEFVIIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",a. View their health/medical information online in their portal  - some or all inpatient sites,Q2a_1,1 = Yes; 0 = No
+PEFVIOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",a. View their health/medical information online in their portal - some or all outpatient sites,Q2a_2,1 = Yes; 0 = No
+PEFVINO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",a. View their health/medical information online in their portal - no,Q2a_3,1 = Yes; 0 = No
+PEFVIDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",a. View their health/medical information online in their portal - do not know,Q2a_4,1 = Yes; 0 = No
+PEFDIIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",b. Download health/medical information from their medical record from your portal - some or all inpatient sites,Q2b_1,1 = Yes; 0 = No
+PEFDIOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",b. Download health/medical information from their medical record from your portal - some or all outpatient sites,Q2b_2,1 = Yes; 0 = No
+PEFDINO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",b. Download health/medical information from their medical record from your portal - no,Q2b_3,1 = Yes; 0 = No
+PEFDIDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",b. Download health/medical information from their medical record from your portal - do not know,Q2b_4,1 = Yes; 0 = No
+PEFIRIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",c. Import their medical records from other organizations into your portal - some or all inpatient sites,Q2c_1,1 = Yes; 0 = No
+PEFIROS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",c. Import their medical records from other organizations into your portal - some or all outpatient sites,Q2c_2,1 = Yes; 0 = No
+PEFIRNO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",c. Import their medical records from other organizations into your portal - no,Q2c_3,1 = Yes; 0 = No
+PEFIRDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",c. Import their medical records from other organizations into your portal - do not know,Q2c_4,1 = Yes; 0 = No
+PEFRSIS,,,,
+PEFRSOS,,,,
+PEFRSNO,,,,
+PEFRSDNK,,,,
+PEFSFIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",d. Electronically transmit (send) health/medical information to a third party from your portal (in a structured format such as CCDA) - some or all inpatient sites,Q2d_1,1 = Yes; 0 = No
+PEFSFOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",d. Electronically transmit (send) health/medical information to a third party from your portal (in a structured format such as CCDA) - some or all outpatient sites,Q2d_2,1 = Yes; 0 = No
+PEFSFNO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",d. Electronically transmit (send) health/medical information to a third party from your portal (in a structured format such as CCDA) - no,Q2d_3,1 = Yes; 0 = No
+PEFSFDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",d. Electronically transmit (send) health/medical information to a third party from your portal (in a structured format such as CCDA) - do not know,Q2d_4,1 = Yes; 0 = No
+PEFRAIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",e. Request an amendment to change/update their medical record  online - some or all inpatient sites,Q2e_1,1 = Yes; 0 = No
+PEFRAOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",e. Request an amendment to change/update their medical record  online - some or all outpatient sites,Q2e_2,1 = Yes; 0 = No
+PEFRANO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",e. Request an amendment to change/update their medical record  online - no,Q2e_3,1 = Yes; 0 = No
+PEFRADNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",e. Request an amendment to change/update their medical record  online - do not know,Q2e_4,1 = Yes; 0 = No
+PEFPROXIS,,,,
+PEFPROXOS,,,,
+PEFPROXNO,,,,
+PEFPROXDNK,,,,
+PEFVCNIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","f. View their clinical notes (e.g., visit notes including consultation, progress, history and physical) in their portal - some or all inpatient sites",Q2f_1,1 = Yes; 0 = No
+PEFVCNOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","f. View their clinical notes (e.g., visit notes including consultation, progress, history and physical) in their portal - some or all outpatient sites",Q2f_2,1 = Yes; 0 = No
+PEFVCNNO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","f. View their clinical notes (e.g., visit notes including consultation, progress, history and physical) in their portal - no",Q2f_3,1 = Yes; 0 = No
+PEFVCNDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","f. View their clinical notes (e.g., visit notes including consultation, progress, history and physical) in their portal - do not know",Q2f_4,1 = Yes; 0 = No
+PEFAPIIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",g. Access their health/medical information using applications (apps) configured to meet the application programming interfaces (API) specifications in your EHR - some or all inpatient sites,Q2g_1,1 = Yes; 0 = No
+PEFAPIOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",g. Access their health/medical information using applications (apps) configured to meet the application programming interfaces (API) specifications in your EHR - some or all outpatient sites,Q2g_2,1 = Yes; 0 = No
+PEFAPINO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",g. Access their health/medical information using applications (apps) configured to meet the application programming interfaces (API) specifications in your EHR - no,Q2g_3,1 = Yes; 0 = No
+PEFAPIDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",g. Access their health/medical information using applications (apps) configured to meet the application programming interfaces (API) specifications in your EHR - do not know,Q2g_4,1 = Yes; 0 = No
+PEFFHIIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",h. Access their health/medical information using applications (apps) configured to meet Fast Healthcare Interoperability Resource (FHIR) specifications - some or all inpatient sites,Q2h_1,1 = Yes; 0 = No
+PEFFHIOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",h. Access their health/medical information using applications (apps) configured to meet Fast Healthcare Interoperability Resource (FHIR) specifications - some or all outpatient sites,Q2h_2,1 = Yes; 0 = No
+PEFFHINO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",h. Access their health/medical information using applications (apps) configured to meet Fast Healthcare Interoperability Resource (FHIR) specifications - no,Q2h_3,1 = Yes; 0 = No
+PEFFHIDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",h. Access their health/medical information using applications (apps) configured to meet Fast Healthcare Interoperability Resource (FHIR) specifications - do not know,Q2h_4,1 = Yes; 0 = No
+PEFSDIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","i. Submit patient generated data (e.g., blood glucose, weight) - some or all inpatient sites",Q2i_1,1 = Yes; 0 = No
+PEFSDOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","i. Submit patient generated data (e.g., blood glucose, weight) - some or all outpatient sites",Q2i_2,1 = Yes; 0 = No
+PEFSDNO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","i. Submit patient generated data (e.g., blood glucose, weight) - no",Q2i_3,1 = Yes; 0 = No
+PEFSDDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","i. Submit patient generated data (e.g., blood glucose, weight) - do not know",Q2i_4,1 = Yes; 0 = No
+PERSMIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",k. Send/receive secure message with providers - some or all inpatient sites,Q2k_1,1 = Yes; 0 = No
+PERSMOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",k. Send/receive secure message with providers - some or all outpatient sites,Q2k_2,1 = Yes; 0 = No
+PERSMNO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",k. Send/receive secure message with providers - no,Q2k_3,1 = Yes; 0 = No
+PERSMDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)",k. Send/receive secure message with providers - do not know,Q2k_4,1 = Yes; 0 = No
+PEFPBIS,,,,
+PEFPBOS,,,,
+PEFPBNO,,,,
+PEFPBDNK,,,,
+PEFRPOS,,,,
+PEFRPNO,,,,
+PEFRPDNK,,,,
+PEFSAOS,,,,
+PEFSANO,,,,
+PEFSADNK,,,,
+NMREF1,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b1a. Name/reference number 1,Q8b1_A,string
+YEAR1,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b1b. First year your hospital participated 1,Q8b1_B,string
+NMREF2,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b2a. Name/reference number 2,Q8b2_A,string
+YEAR2,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b2b. First year your hospital participated 2,Q8b2_B,string
+NM2OTH,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b1b.Name2 Other,Q8b2_OTH,string
+NMREF3,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b3a. Name/reference number 3,Q8b3_A,string
+YEAR3,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b3b. First year your hospital participated 3,Q8b3_B,string
+NM3OTH,"8b.  Please indicate which state, regional and/or local HIE/HIO(s) with which your hospital participates and actively exchanges data as well as the first year your hospitals actively participated in this HIE/HIO. (See HIO list)",8b1b.Name3 Other,Q8b3_OTH,string
+DRTMSG,10a.  Does your hospital currently use Direct messaging that is enabled through the DIRECT protocol?,Hospital uses Direct messaging enabled through DIRECT protocal and the DirectTrust,Q10a,"1 = Yes
+2 = No (go to 11)
+3 = Do not know (go to 11)"
+CVDIOP,22.  To what extent do you agree with this statement: my hospital electronically received information from outside providers needed to effectively treat COVID-19?,My hospital electronically received information from outside providers needed to effectively treat COVID-19,Q22,"1 = Strongly agree
+2 = Agree
+3 = Neither agree nor disagree
+4 = Disagree
+5 = Strongly disagree
+6 = Don't know"
+DGNCVD,,,,
+PLCVD,,,,
+LRCVD,,,,
+CNCVD,,,,
+MEDCVD,,,,
+IMGCVD,,,,
+IDCVD,,,,
+LCLSF,,,,
+SIRSF,,,,
+PHLSF,,,,
+OTHHPSF,,,,
+TAPSF,,,,
+EMPRSF,,,,
+SSRAE,23a.  What is your hospital's current stage of active engagement towards electronically submitting data for public health reporting related to the activities listed below? ,1. Syndromic surveillance reporting,Q23a_1,"1 = Actively electronically submitting production data
+2 = In the process of testing and validating electronic submission of data
+3 = Completed registration to submit data
+4 = Have not completed registration
+5 = Don't know"
+IRRAE,23a.  What is your hospital's current stage of active engagement towards electronically submitting data for public health reporting related to the activities listed below? ,2. Immunization registry reporting,Q23a_2,"1 = Actively electronically submitting production data
+2 = In the process of testing and validating electronic submission of data
+3 = Completed registration to submit data
+4 = Have not completed registration
+5 = Don't know"
+ECRAE,23a.  What is your hospital's current stage of active engagement towards electronically submitting data for public health reporting related to the activities listed below? ,3. Electronic case reporting,Q23a_3,"1 = Actively electronically submitting production data
+2 = In the process of testing and validating electronic submission of data
+3 = Completed registration to submit data
+4 = Have not completed registration
+5 = Don't know"
+PHRAE,23a.  What is your hospital's current stage of active engagement towards electronically submitting data for public health reporting related to the activities listed below? ,4. Public health registry reporting (i.e. registry maintained by or for a public health agency NOT including immunization registry),Q23a_4,"1 = Actively electronically submitting production data
+2 = In the process of testing and validating electronic submission of data
+3 = Completed registration to submit data
+4 = Have not completed registration
+5 = Don't know"
+CDRAE,23a.  What is your hospital's current stage of active engagement towards electronically submitting data for public health reporting related to the activities listed below? ,"5. Clinical data registry reporting (i.e. registry maintained by non-public health agency, such as specialty society)",Q23a_5,"1 = Actively electronically submitting production data
+2 = In the process of testing and validating electronic submission of data
+3 = Completed registration to submit data
+4 = Have not completed registration
+5 = Don't know"
+ERLAE,23a.  What is your hospital's current stage of active engagement towards electronically submitting data for public health reporting related to the activities listed below? ,6. Electronic reportable laboratory result reporting,Q23a_6,"1 = Actively electronically submitting production data
+2 = In the process of testing and validating electronic submission of data
+3 = Completed registration to submit data
+4 = Have not completed registration
+5 = Don't know"
+SSRESD,,,,
+IRRESD,,,,
+ECRESD,,,,
+PHRESD,,,,
+CDRESD,,,,
+ERLESD,,,,
+HCUESD,,,,
+SSRSSPH,,,,
+IRRSSPH,,,,
+ECRSSPH,,,,
+PHRSSPH,,,,
+CDRSSPH,,,,
+ERLSSPH,,,,
+HCUSSPH,,,,
+SSRSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",1. Syndromic surveillance reporting,Q23c_1,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+IRRSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",2. Immunization registry reporting,Q23c_2,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+ECRSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",3. Electronic case reporting,Q23c_3,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+PHRSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",4. Public health registry reporting,Q23c_4,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+CDRSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",5. Clinical data registry reporting,Q23c_5,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+ERLSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",6. Electronic reportable laboratory result reporting,Q23c_6,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+HCUSTRDT,"23c. For each type of public health reporting, please indicate whether your hospital uses automated, manual, or a mix of both types of processes to transmit the data. ",7. Hospital capacity and utilization of medical supplies,Q23c_7,"1 = Fully or primarily automated
+2 = Mix of automated and manual processes
+3 = Fully or primarily manual
+4 = Don't know"
+SSRSHIE,,,,
+IRRSHIE,,,,
+ECRSHIE,,,,
+PHRSHIE,,,,
+CDRSHIE,,,,
+ERLSHIE,,,,
+HCUSHIE,,,,
+ADVEVNTS,,,,
+HIECHRGE,,,,
+EHRCHRGE,,,,
+NODPA,"24a. Which of the following issues has your hospital experienced when trying to electronically (not eFax) send, receive, or find (query) patient health information to/from other organizations or hospital systems? (Check all that apply) Barriers related to electronically sending patient health information",5. It is difficult to locate the Direct address of the provider to send the information,Q24a_5,1 = Yes; 0 = No
+ERRMSG,,,,
+EPRVNOEX,,,,
+NFMTRQST,24b. Barriers related to electronically receiving patient health information,3. There are providers who share data with us but do not provide that data in the format that we request,Q24b_3,1 = Yes; 0 = No
+NAPRVLWS,24b. Barriers related to electronically receiving patient health information,4. There are providers who state that they cannot exchange information with us due to privacy laws (e.g. HIPAA) in situations where that does not seem appropriate,Q24b_4,1 = Yes; 0 = No
+CNTRTCST,24c. Other barriers related to exchanging patient health information,4. Contractual constraints between healthcare providers and health vendors limit our ability to exchange data with providers using certain systems,Q24c_4,1 = Yes; 0 = No
+EVPRCE,25a. In what form(s) have you observed or experienced information blocking by Enterprise EHR vendor(s)?,1. Price,Q25a_1,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+EVCNTLNG,25a. In what form(s) have you observed or experienced information blocking by Enterprise EHR vendor(s)?,2. Contract language,Q25a_2,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+EVARTF,25a. In what form(s) have you observed or experienced information blocking by Enterprise EHR vendor(s)?,"3. Artificial technical, process, or resource barriers",Q25a_3,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+EVRFSL,25a. In what form(s) have you observed or experienced information blocking by Enterprise EHR vendor(s)?,4. Refusal,Q25a_4,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+EVOTH,25a. In what form(s) have you observed or experienced information blocking by Enterprise EHR vendor(s)?,5. Other (EHR venfor information blocking),Q25a_5,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+HCPARTF,25c. In what form(s) have you observed or experienced information blocking by healthcare providers?,"1. Artificial technical, process, or resource barriers",Q25c_1,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+HCPRFSL,25c. In what form(s) have you observed or experienced information blocking by healthcare providers?,2. Refusal,Q25c_2,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+HCPSTAFL,25c. In what form(s) have you observed or experienced information blocking by healthcare providers?,3. Strategic affiliations,Q25c_3,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+HCPOTH,25c. In what form(s) have you observed or experienced information blocking by healthcare providers?,4. Other (healthcare provider blocking),Q25c_4,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Don't know"
+SHCERTDV,25b. To what extent have you observed the following stakeholders engaging in information blocking behaviors?,1. Developers of Certified Health IT (e.g. Enterprise EHR vendors),Q25b_1,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (i.e. we have not tried to get information from this source)
+5 = Don't know"
+SHHCPROV,,,,
+SHNTLNTW,25b. To what extent have you observed the following stakeholders engaging in information blocking behaviors?,"2. National Networks (e.g CommonWell, eHealth Exchange)",Q25b_2,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (i.e. we have not tried to get information from this source)
+5 = Don't know"
+SHSRLHIE,25b. To what extent have you observed the following stakeholders engaging in information blocking behaviors?,"3. State, regional, and/or local health information exchange",Q25b_3,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (i.e. we have not tried to get information from this source)
+5 = Don't know"
+SHOTH,,,,
+SHOTH_DESC,,,,
+EHR2015CRT,"26b.  If yes, has your hospital switched to a 2015 certified EHR system?",Hospital switched to a 2015 certified EHR system,Q26b,"1 = Yes
+2 = No
+3 = Do not know"
+PIEXMREC,,,,
+ARCAP,30. Have you used the capability to export multiple records from your primary inpatient EHR system to support any of the following uses?,1. Analytics and reporting,Q30_1,1 = Yes; 0 = No
+PHMCAP,30. Have you used the capability to export multiple records from your primary inpatient EHR system to support any of the following uses?,2. Population health management,Q30_2,1 = Yes; 0 = No
+SWTSYCAP,30. Have you used the capability to export multiple records from your primary inpatient EHR system to support any of the following uses?,3. Switching EHR systems,Q30_3,1 = Yes; 0 = No
+NOUSECAP,30. Have you used the capability to export multiple records from your primary inpatient EHR system to support any of the following uses?,4. Have not used the capability yet,Q30_4,1 = Yes; 0 = No
+CVDEHX,,,,
+PEFAPIS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","j. Submit patient generated data (e.g., blood glucose, weight) through apps configured to meet FHIR specifications - some or all inpatient sites",Q2j_1,1 = Yes; 0 = No
+PEFAPOS,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","j. Submit patient generated data (e.g., blood glucose, weight) through apps configured to meet FHIR specifications - some or all outpatient sites",Q2j_2,1 = Yes; 0 = No
+PEFAPNO,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","j. Submit patient generated data (e.g., blood glucose, weight) through apps configured to meet FHIR specifications - no",Q2j_3,1 = Yes; 0 = No
+PEFAPDNK,"2. Are patients who receive care provided by your hospital or outpatient sites able to do the following:  (Check ""Yes"" only if the functionality has been ""turned on"" and is fully implemented and available to patients. Check both (1) and (2) if the functionality is turned on in both inpatient and outpatient settings)","j. Submit patient generated data (e.g., blood glucose, weight) through apps configured to meet FHIR specifications - do not know",Q2j_4,1 = Yes; 0 = No
+SDHSN,"3 . Does your hospital routinely collect data on individual patients' health related social needs (often referred to as social determinants of health) such as transportation, housing, food insecurity or other?",Hospital routinely collects data on individual patients' health related social needs,Q3,"1 = Yes, routinely
+2 = Yes, but not routinely
+3 = No
+4 = Don't know"
+SNESTL,4a. How are data on individual patients health related social needs recorded at your hospital? Check all that apply,1. Structured electronic screening tool (including âkeying inâ information from a paper form) (go to 4b),Q4a_1,1 = Yes; 0 = No
+SNFTNTE,4a. How are data on individual patients health related social needs recorded at your hospital? Check all that apply,2. Free text note (go to 5),Q4a_2,1 = Yes; 0 = No
+SNDCDS,4a. How are data on individual patients health related social needs recorded at your hospital? Check all that apply,"3. Diagnosis codes (e.g., ICD-10-CM Z codes) (go to 5)",Q4a_3,1 = Yes; 0 = No
+SNNELEC,4a. How are data on individual patients health related social needs recorded at your hospital? Check all that apply,4. Non-electronic methods (including those that are scanned into the EHR) (go to 5),Q4a_4,1 = Yes; 0 = No
+SCTOOL,"4b. If you use a screening tool, what type of screening tool?",Type of screening tool,Q4b,"1 = Customized/home grown tool
+2 = An externally established tool such as PRAPARE, Recommended Social and Behavioral Domains for EHRs, Your Current Life Situation Survey
+3 = A combination (e.g., modification of externally established tool)
+4 = Dont know"
+HSNSSO,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,a. For referrals to social service organizations,Q5_A,1 = Yes; 0 = No
+HSNPHA,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,b. For population health analytics,Q5_B,1 = Yes; 0 = No
+HSNQMGT,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,c. For quality management,Q5_C,1 = Yes; 0 = No
+HSNCNA,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,d. To inform community needs assessment or other equity initiatives,Q5_D,1 = Yes; 0 = No
+HSNCDM,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,e. To inform clinical decision making,Q5_E,1 = Yes; 0 = No
+HSNDPLN,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,f. To inform discharge planning,Q5_F,1 = Yes; 0 = No
+HSNOTH,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,g. Other (use health related social needs),Q5_G,1 = Yes; 0 = No
+HSNOTH_DESC,5. How does your hospital use data on patients' health related social needs documented at your hospital? Check all that apply,Other description (use health related social needs),Q5_G_OTH,1 = Yes; 0 = No
+OSNHIE,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,a. Health information exchanges,Q6_A,1 = Yes; 0 = No
+OSNHCORG,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,b. Other healthcare organizations,Q6_B,1 = Yes; 0 = No
+OSNSSO,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,c. Community/social service organizations,Q6_C,1 = Yes; 0 = No
+OSNCBP,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,d. Social service or community-based referral platform (such as Unite Us or Aunt Bertha),Q6_D,1 = Yes; 0 = No
+OSNOTH,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,e. Other (external source for social needs),Q6_E,1 = Yes; 0 = No
+OSNDN,6. From which sources outside your hospital/health system does your hospital electronically receive data on patients social needs? Check all that apply,f. Do not receive data on health-related social needs from any external sources (go to 8),Q6_F,1 = Yes; 0 = No
+ESSCREEN,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply","a. For screening at our hospital (e.g., prompt screening, prepopulate screening tool)",Q7_A,1 = Yes; 0 = No
+ESSSO,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",b. For referrals to social service organization,Q7_B,1 = Yes; 0 = No
+ESPHA,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",c. For population health analytics,Q7_C,1 = Yes; 0 = No
+ESCNA,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",d. To inform community needs assessment or other equity initiatives,Q7_D,1 = Yes; 0 = No
+ESCDM,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",e. To inform clinical decision making,Q7_E,1 = Yes; 0 = No
+ESDPLN,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",f. To inform discharge planning,Q7_F,1 = Yes; 0 = No
+ESOTH,"7. If you indicated receiving data on patients' health related social needs from external sources, how do you use these data? Check all that apply",g. Other (use external source),Q7_G,1 = Yes; 0 = No
+DIRTRST,"9. Which of the following national health information exchange networks does your hospital currently actively participate in (i.e., operational exchange)? Check all that apply",e. DirectTrust,Q9_E,1 = Yes; 0 = No
+DRTENB,"10b. If yes, is it enabled by DirectTrust?",Direct messaging enabled by DirectTrust,Q10b,"1 = Yes
+2 = No
+3 = Do not know"
+ATEFCA,11. Are you aware of the Trusted Exchange Framework and Common Agreement (TEFCA)?,Aware of the Trusted Exchange Framework and Common Agreement (TEFCA),Q11,1 = Yes; 0 = No
+PTEFCA,"12. If yes, are you planning to participate in TEFCA exchange (such as through your HIE or other national network)?",Planning to participate in TEFCA exchange,Q12,"1 = Yes
+2 = No
+3 = Do not know"
+ADTLT,"16a. Does your hospital provide electronic admission, discharge or transfer (ADT) notifications to long-term post-acute care providers?","Provide electronic admission, discharge or transfer (ADT) notifications to long-term post-acute care providers",Q16a,"1 = Yes, routinely
+2 = Yes, but not routinely (e.g. often missing information to route notification)
+3 = No, but have the capability (go to 17)
+4 = No, don't have the capability (go to 17)
+5 = Don't know (17)"
+ENLTPIN,"16b. If yes, are electronic notifications provided to LTPAC facilities below? Check all that apply",1. Inside the same system as the hospital (LTPAC facilities),Q16b_1,1 = Yes; 0 = No
+ENLTPOUT,"16b. If yes, are electronic notifications provided to LTPAC facilities below? Check all that apply",2. Outside the hospital's system (LTPAC facilities),Q16b_2,1 = Yes; 0 = No
+ENLTPDNK,"16b. If yes, are electronic notifications provided to LTPAC facilities below? Check all that apply",3. Don't know (LTPAC facilities),Q16b_3,1 = Yes; 0 = No
+PRESBEN,19. Does your EHR integrate health insurer real-time prescription benefit information?,EHR integrates health insurer real-time prescription benefit information,Q19,"1 = Yes, for all or almost all payers
+2 = Yes, for a limited set of payers
+3 = No
+4 = Do not know"
+SSREHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,1. Syndromic surveillance reporting - Electronic health record,Q23b_1_1,1 = Yes; 0 = No
+SSRHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,1. Syndromic surveillance reporting - Health information exchange,Q23b_1_2,1 = Yes; 0 = No
+SSRPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,1. Syndromic surveillance reporting - Portal submission,Q23b_1_3,1 = Yes; 0 = No
+SSRFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,1. Syndromic surveillance reporting - Flat files,Q23b_1_4,1 = Yes; 0 = No
+SSRNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,1. Syndromic surveillance reporting - Not electronically submitting,Q23b_1_5,1 = Yes; 0 = No
+SSRDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,1. Syndromic surveillance reporting - Don't know,Q23b_1_6,1 = Yes; 0 = No
+IIREHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,2. Immunization registry reporting - Electronic health record,Q23b_2_1,1 = Yes; 0 = No
+IIRHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,2. Immunization registry reporting - Health information exchange,Q23b_2_2,1 = Yes; 0 = No
+IIRPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,2. Immunization registry reporting - Portal submission,Q23b_2_3,1 = Yes; 0 = No
+IIRFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,2. Immunization registry reporting - Flat files,Q23b_2_4,1 = Yes; 0 = No
+IIRNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,2. Immunization registry reporting  - Not electronically submitting,Q23b_2_5,1 = Yes; 0 = No
+IIRDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,2. Immunization registry reporting - Don't know,Q23b_2_6,1 = Yes; 0 = No
+ECREHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,3. Electronic case reporting - Electronic health record,Q23b_3_1,1 = Yes; 0 = No
+ECRHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,3. Electronic case reporting - Health information exchange,Q23b_3_2,1 = Yes; 0 = No
+ECRPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,3. Electronic case reporting - Portal submission,Q23b_3_3,1 = Yes; 0 = No
+ECRFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,3. Electronic case reporting - Flat files,Q23b_3_4,1 = Yes; 0 = No
+ECRNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,3. Electronic case reporting - Not electronically submitting,Q23b_3_5,1 = Yes; 0 = No
+ECRDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,3. Electronic case reporting - Don't know,Q23b_3_6,1 = Yes; 0 = No
+PHREHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,4. Public health registry reporting - Electronic health record,Q23b_4_1,1 = Yes; 0 = No
+PHRHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,4. Public health registry reporting - Health information exchange,Q23b_4_2,1 = Yes; 0 = No
+PHRPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,4. Public health registry reporting - Portal submission,Q23b_4_3,1 = Yes; 0 = No
+PHRFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,4. Public health registry reporting - Flat files,Q23b_4_4,1 = Yes; 0 = No
+PHRNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,4. Public health registry reporting - Not electronically submitting,Q23b_4_5,1 = Yes; 0 = No
+PHRDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,4. Public health registry reporting - Don't know,Q23b_4_6,1 = Yes; 0 = No
+CDREHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,5. Clinical data registry reporting - Electronic health record,Q23b_5_1,1 = Yes; 0 = No
+CDRHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,5. Clinical data registry reporting - Health information exchange,Q23b_5_2,1 = Yes; 0 = No
+CDRPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,5. Clinical data registry reporting - Portal submission,Q23b_5_3,1 = Yes; 0 = No
+CDRFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,5. Clinical data registry reporting - Flat files,Q23b_5_4,1 = Yes; 0 = No
+CDRNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,5. Clinical data registry reporting - Not electronically submitting,Q23b_5_5,1 = Yes; 0 = No
+CDRDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,5. Clinical data registry reporting - Don't know,Q23b_5_6,1 = Yes; 0 = No
+ERLEHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,6. Electronic reportable laboratory result reporting - Electronic health record,Q23b_6_1,1 = Yes; 0 = No
+ERLHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,6. Electronic reportable laboratory result reporting - Health information exchange,Q23b_6_2,1 = Yes; 0 = No
+ERLPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,6. Electronic reportable laboratory result reporting - Portal submission,Q23b_6_3,1 = Yes; 0 = No
+ERLFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,6. Electronic reportable laboratory result reporting - Flat files,Q23b_6_4,1 = Yes; 0 = No
+ERLNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,6. Electronic reportable laboratory result reporting - Not electronically submitting,Q23b_6_5,1 = Yes; 0 = No
+ERLDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,6. Electronic reportable laboratory result reporting - Don't know,Q23b_6_6,1 = Yes; 0 = No
+HCUEHR,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,7. Hospital capacity and utilization of medical supplies - Electronic health record,Q23b_7_1,1 = Yes; 0 = No
+HCUHIE,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,7. Hospital capacity and utilization of medical supplies - Health information exchange,Q23b_7_2,1 = Yes; 0 = No
+HCUPS,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,7. Hospital capacity and utilization of medical supplies - Portal submission,Q23b_7_3,1 = Yes; 0 = No
+HCUFF,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,7. Hospital capacity and utilization of medical supplies - Flat files,Q23b_7_4,1 = Yes; 0 = No
+HCUNES,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,7. Hospital capacity and utilization of medical supplies - Not electronically submitting,Q23b_7_5,1 = Yes; 0 = No
+HCUDK,23b.  How does your hospital electronically submit data for public health reporting related to the activities listed below? Note this is referring to data generated through clinical processes involving patient care (production data NOT test data).,7. Hospital capacity and utilization of medical supplies - Don't know,Q23b_7_6,1 = Yes; 0 = No
+NOCAPRSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"1. Public health agencies lack the capacity (e.g., technical, staffing) to electronically receive the information - Syndromic surveillance reporting",Q23d_1_1,1 = Yes; 0 = No
+NOCAPRIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"1. Public health agencies lack the capacity (e.g., technical, staffing) to electronically receive the information - Immunization registry reporting",Q23d_1_2,1 = Yes; 0 = No
+NOCAPRECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"1. Public health agencies lack the capacity (e.g., technical, staffing) to electronically receive the information - Electronic case reporting",Q23d_1_3,1 = Yes; 0 = No
+NOCAPRPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"1. Public health agencies lack the capacity (e.g., technical, staffing) to electronically receive the information - Public health registry reporting",Q23d_1_4,1 = Yes; 0 = No
+NOCAPRCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"1. Public health agencies lack the capacity (e.g., technical, staffing) to electronically receive the information - Clinical data registry reporting",Q23d_1_5,1 = Yes; 0 = No
+NOCAPRERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"1. Public health agencies lack the capacity (e.g., technical, staffing) to electronically receive the information - Electronic reportable laboratory result reporting",Q23d_1_6,1 = Yes; 0 = No
+NOCAPSSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"2. Do not have the capacity (e.g., technical, staffing) to electronically send the information - Syndromic surveillance reporting",Q23d_2_1,1 = Yes; 0 = No
+NOCAPSIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"2. Do not have the capacity (e.g., technical, staffing) to electronically send the information - Immunization registry reporting",Q23d_2_2,1 = Yes; 0 = No
+NOCAPSECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"2. Do not have the capacity (e.g., technical, staffing) to electronically send the information - Electronic case reporting",Q23d_2_3,1 = Yes; 0 = No
+NOCAPSPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"2. Do not have the capacity (e.g., technical, staffing) to electronically send the information - Public health registry reporting",Q23d_2_4,1 = Yes; 0 = No
+NOCAPSCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"2. Do not have the capacity (e.g., technical, staffing) to electronically send the information - Clinical data registry reporting",Q23d_2_5,1 = Yes; 0 = No
+NOCAPSERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"2. Do not have the capacity (e.g., technical, staffing) to electronically send the information - Electronic reportable laboratory result reporting",Q23d_2_6,1 = Yes; 0 = No
+COMPSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"3. Technical complexity of interfaces, transmission, or submission process  - Syndromic surveillance reporting",Q23d_3_1,1 = Yes; 0 = No
+COMPIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"3. Technical complexity of interfaces, transmission, or submission process - Immunization registry reporting",Q23d_3_2,1 = Yes; 0 = No
+COMPECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"3. Technical complexity of interfaces, transmission, or submission process - Electronic case reporting",Q23d_3_3,1 = Yes; 0 = No
+COMPPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"3. Technical complexity of interfaces, transmission, or submission process - Public health registry reporting",Q23d_3_4,1 = Yes; 0 = No
+COMPCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"3. Technical complexity of interfaces, transmission, or submission process - Clinical data registry reporting",Q23d_3_5,1 = Yes; 0 = No
+COMPERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"3. Technical complexity of interfaces, transmission, or submission process - Electronic reportable laboratory result reporting",Q23d_3_6,1 = Yes; 0 = No
+COSTSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"4. Cost related to interfaces, transmission, or submission - Syndromic surveillance reporting",Q23d_4_1,1 = Yes; 0 = No
+COSTIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"4. Cost related to interfaces, transmission, or submission - Immunization registry reporting",Q23d_4_2,1 = Yes; 0 = No
+COSTECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"4. Cost related to interfaces, transmission, or submission - Electronic case reporting",Q23d_4_3,1 = Yes; 0 = No
+COSTPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"4. Cost related to interfaces, transmission, or submission - Public health registry reporting",Q23d_4_4,1 = Yes; 0 = No
+COSTCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"4. Cost related to interfaces, transmission, or submission - Clinical data registry reporting",Q23d_4_5,1 = Yes; 0 = No
+COSTERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"4. Cost related to interfaces, transmission, or submission - Electronic reportable laboratory result reporting",Q23d_4_6,1 = Yes; 0 = No
+VOCABSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"5. Use different vocabulary standards than the public health agency, making it difficult to submit - Syndromic surveillance reporting",Q23d_5_1,1 = Yes; 0 = No
+VOCABIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"5. Use different vocabulary standards than the public health agency, making it difficult to submit - Immunization registry reporting",Q23d_5_2,1 = Yes; 0 = No
+VOCABECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"5. Use different vocabulary standards than the public health agency, making it difficult to submit - Electronic case reporting",Q23d_5_3,1 = Yes; 0 = No
+VOCABPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"5. Use different vocabulary standards than the public health agency, making it difficult to submit - Public health registry reporting",Q23d_5_4,1 = Yes; 0 = No
+VOCABCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"5. Use different vocabulary standards than the public health agency, making it difficult to submit - Clinical data registry reporting",Q23d_5_5,1 = Yes; 0 = No
+VOCABERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),"5. Use different vocabulary standards than the public health agency, making it difficult to submit - Electronic reportable laboratory result reporting",Q23d_5_6,1 = Yes; 0 = No
+RELINFSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),6. Difficulty extracting relevant information from EHR - Syndromic surveillance reporting,Q23d_6_1,1 = Yes; 0 = No
+RELINFIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),6. Difficulty extracting relevant information from EHR - Immunization registry reporting,Q23d_6_2,1 = Yes; 0 = No
+RELINFECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),6. Difficulty extracting relevant information from EHR - Electronic case reporting,Q23d_6_3,1 = Yes; 0 = No
+RELINFPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),6. Difficulty extracting relevant information from EHR - Public health registry reporting,Q23d_6_4,1 = Yes; 0 = No
+RELINFCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),6. Difficulty extracting relevant information from EHR - Clinical data registry reporting,Q23d_6_5,1 = Yes; 0 = No
+RELINFERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),6. Difficulty extracting relevant information from EHR - Electronic reportable laboratory result reporting,Q23d_6_6,1 = Yes; 0 = No
+DISFORSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),7. Data are not stored in a discrete format within the EHR - Syndromic surveillance reporting,Q23d_7_1,1 = Yes; 0 = No
+DISFORIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),7. Data are not stored in a discrete format within the EHR - Immunization registry reporting,Q23d_7_2,1 = Yes; 0 = No
+DISFORECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),7. Data are not stored in a discrete format within the EHR - Electronic case reporting,Q23d_7_3,1 = Yes; 0 = No
+DISFORPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),7. Data are not stored in a discrete format within the EHR - Public health registry reporting,Q23d_7_4,1 = Yes; 0 = No
+DISFORCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),7. Data are not stored in a discrete format within the EHR - Clinical data registry reporting,Q23d_7_5,1 = Yes; 0 = No
+DISFORERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),7. Data are not stored in a discrete format within the EHR - Electronic reportable laboratory result reporting,Q23d_7_6,1 = Yes; 0 = No
+ONBPROSSR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),8. Onboarding process for electronic reporting is too cumbersome - Syndromic surveillance reporting,Q23d_8_1,1 = Yes; 0 = No
+ONBPROIRR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),8. Onboarding process for electronic reporting is too cumbersome - Immunization registry reporting,Q23d_8_2,1 = Yes; 0 = No
+ONBPROECR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),8. Onboarding process for electronic reporting is too cumbersome - Electronic case reporting,Q23d_8_3,1 = Yes; 0 = No
+ONBPROPHR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),8. Onboarding process for electronic reporting is too cumbersome - Public health registry reporting,Q23d_8_4,1 = Yes; 0 = No
+ONBPROCDR,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),8. Onboarding process for electronic reporting is too cumbersome - Clinical data registry reporting,Q23d_8_5,1 = Yes; 0 = No
+ONBPROERL,23d. What are some of the challenges your hospital has experienced when trying to submit health information to public health agencies to meet CMS reporting requirements for Promoting Interoperability Program? (Please check all that apply),8. Onboarding process for electronic reporting is too cumbersome - Electronic reportable laboratory result reporting,Q23d_8_6,1 = Yes; 0 = No
+INFOBLK,25d. To what extent have you observed healthcare providers engaging in information blocking behaviors?,Extent to which healthcare providers engage in in information blocking behaviors,Q25d,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely (go to 25f)
+4 = We have not tried to get information from this source (go to 25f)
+5 = Don't know (go to 25f)"
+HSBLK,"25e. To what extent have you observed the following types of healthcare providers engaging in information blocking behaviors, as described in the question above?",1. Health Systems blocking,Q25e_1,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (We have not tried to get information from this source)
+5 = Don't know"
+INDHSBLK,"25e. To what extent have you observed the following types of healthcare providers engaging in information blocking behaviors, as described in the question above?",2. Independent Hospitals blocking,Q25e_2,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (We have not tried to get information from this source)
+5 = Don't know"
+INDPHYBLK,"25e. To what extent have you observed the following types of healthcare providers engaging in information blocking behaviors, as described in the question above?",3. Independent physician or physician groups blocking,Q25e_3,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (We have not tried to get information from this source)
+5 = Don't know"
+OTHBLK,"25e. To what extent have you observed the following types of healthcare providers engaging in information blocking behaviors, as described in the question above?",4. Other (healthcare provider blocking),Q25e_4,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (We have not tried to get information from this source)
+5 = Don't know"
+OTHBLK_DESC,"25e. To what extent have you observed the following types of healthcare providers engaging in information blocking behaviors, as described in the question above?",Other description (healthcare provider blocking),Q25e_4_OTH,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Not Applicable (We have not tried to get information from this source)
+5 = Don't know"
+RIPBFRQ,"25f. If you have experienced practices that you believed constituted information blocking in the past year, how often did you report the information blocking to ONC/HHS using the Report Information Blocking Portal?",Reported information blocking to ONC/HHS using the Report Information Blocking Portal,Q25f,"1 = Often/Routinely
+2 = Sometimes
+3 = Never/Rarely
+4 = Did not experience information blocking within the past year
+5 = Don't know"
+INTHRDPTY,"27a. Does your hospital integrate data into your EHR from third-party software (e.g., patient monitoring devices, telehealth)?",Hospital integrates data into EHR from third-party software,Q27a,"1 = Yes
+2 = No (go to 27c)
+3 = Don't know (go to 27c)"
+INPTYAPI,"27b. If yes, how? (hospital integrates data into 3rd party software)",1. Proprietary API (hospital integrates data into 3rd party software),Q27b_1,1 = Yes; 0 = No
+INSBAPI,"27b. If yes, how? (hospital integrates data into 3rd party software)",2. Standards-based API (hospital integrates data into 3rd party software),Q27b_2,1 = Yes; 0 = No
+INDTINSVC,"27b. If yes, how? (hospital integrates data into 3rd party software)",3. Data integrator service (hospital integrates data into 3rd party software),Q27b_3,1 = Yes; 0 = No
+INDNKAPI,"27b. If yes, how? (hospital integrates data into 3rd party software)",4. Don't know (hospital integrates data into 3rd party software),Q27b_4,1 = Yes; 0 = No
+DTATHDPTY,27c. Does your hospital provide data from your EHR to third-party applications used by clinicians at your hospital/health system?,Hospital provides data from EHR to third-party applications used by clinicians at hospital/health system?,Q27c,"1 = Yes
+2 = No (go to 27e)
+3 = Don't know (go to 27e)"
+DTPTYAPI,"27d. If yes, how? (hospital provides data from EHR to 3rd party applications)",1. Proprietary API (hospital provides data from EHR to 3rd party applications),Q27d_1,1 = Yes; 0 = No
+DTSBAPI,"27d. If yes, how? (hospital provides data from EHR to 3rd party applications)",2. Standards-based API (hospital provides data from EHR to 3rd party applications),Q27d_2,1 = Yes; 0 = No
+DTDTINSVC,"27d. If yes, how? (hospital provides data from EHR to 3rd party applications)",3. Data integrator service (hospital provides data from EHR to 3rd party applications),Q27d_3,1 = Yes; 0 = No
+DTDNKAPI,"27d. If yes, how? (hospital provides data from EHR to 3rd party applications)",4. Don't know (hospital provides data from EHR to 3rd party applications),Q27d_4,1 = Yes; 0 = No
+OSATHDPTY,27e. Does your hospital provide data from sources other than your EHR to third-party applications used by clinicians at your hospital/health system?,Hospital provides data from sources other than EHR to third-party applications used by clinicians at hospital/health system?,Q27e,"1 = Yes
+2 = No (go to 28)
+3 = Don't know (go to 28)"
+OSPTYAPI,"27f. If yes, how? (hospital provides data from sources other than EHR to 3rd party applications)",1. Proprietary API  (hospital provides data from sources other than EHR to 3rd party applications),Q27f_1,1 = Yes; 0 = No
+OSSBAPI,"27f. If yes, how? (hospital provides data from sources other than EHR to 3rd party applications)",2. Standards-based API  (hospital provides data from sources other than EHR to 3rd party applications),Q27f_2,1 = Yes; 0 = No
+OSDTINSVC,"27f. If yes, how? (hospital provides data from sources other than EHR to 3rd party applications)",3. Data integrator service (hospital provides data from sources other than EHR to 3rd party applications),Q27f_3,1 = Yes; 0 = No
+OSDNKAPI,"27f. If yes, how? (hospital provides data from sources other than EHR to 3rd party applications)",4. Don't know  (hospital provides data from sources other than EHR to 3rd party applications),Q27f_4,1 = Yes; 0 = No
+DNHCAP,30. Have you used the capability to export multiple records from your primary inpatient EHR system to support any of the following uses?,5. Do not have this capability,Q30_5,1 = Yes; 0 = No
+SNREC,,,,
+SCHCOM,,,,
+SCRISK,,,,
+SCHELP,,,,
+SCBEH,,,,
+SCPRAP,,,,
+SCCARE,,,,
+SCRX,,,,
+SCKIT,,,,
+SCOTHEX,,,,
+SCOTHEX_DESC,,,,
+SCDNK,,,,
+OSNDNK,,,,
+OSNBHIE,,,,
+OSNBCBP,,,,
+OSNBNN,,,,
+OSNBOTH,,,,
+OSNBDNK,,,,
+ETREAT,,,,
+EPAY,,,,
+EHEAOP,,,,
+EINDACC,,,,
+EPUBHEA,,,,
+EGBEN,,,,
+TROEST,,,,
+TROERF,,,,
+TRODNK,,,,
+TRAEST,,,,
+TRAERF,,,,
+TRADNK,,,,
+TRLEST,,,,
+TRLERF,,,,
+TRLEDNK,,,,
+TRBHEST,,,,
+TRBHERF,,,,
+TRBHDNK,,,,
+AMICEHR,,,,
+AMICHIE,,,,
+AMICPS,,,,
+AMICFF,,,,
+AMICNES,,,,
+AMICDK,,,,
+DNEXPSSR,,,,
+DNEXPIRR,,,,
+DNEXECR,,,,
+DNEXPHR,,,,
+DNEXCDR,,,,
+DNEXERL,,,,
+EQUERY,,,,
+EADHG,,,,
+EIDGAP,,,,
+ESIMP,,,,
+EMSAF,,,,
+ERALG,,,,
+ENOTA,,,,
+AIPRED,,,,
+AITRAJ,,,,
+AIRFOL,,,,
+AIMHEA,,,,
+AIRECT,,,,
+AIBILL,,,,
+AISCHE,,,,
+AIPOTH,,,,
+AIPOTH_DESC,,,,
+AICLOTH,,,,
+AICLOTH_DESC,,,,
+AINOTA,,,,
+AIDNK,,,,
+MLDEV,,,,
+MLTHD,,,,
+MLSED,,,,
+MLPUBD,,,,
+MLDNK,,,,
+MLACCU,,,,
+MLBIAS,,,,
